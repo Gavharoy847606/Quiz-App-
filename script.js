@@ -109,7 +109,7 @@ function showResult() {
 
 // har bir savol uchun soniya sanash funksiyasi.
 function startQuizTime() {
-  timer = 5;
+  timer = 10;
 
   timerQuiz.innerText = `Time: ${timer}`;
 
