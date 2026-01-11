@@ -160,6 +160,6 @@ function CorrectAnswerFunc() {
 //   }
 // }
 
-//Gavahroy bo`limi secound sanash va boshqalar 
+//Gavharoy bo`limi secound sanash va boshqalar 
 
     
