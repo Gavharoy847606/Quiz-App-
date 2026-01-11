@@ -162,3 +162,4 @@ function CorrectAnswerFunc() {
 
 //Gavahroy bo`limi secound sanash va boshqalar 
 
+    
