@@ -1,25 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
   <meta charset="UTF-8">
-  <title>Basic Quiz App</title>
+  <title>PdpQuiz</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-
 </head>
 <body>
-  <span id="timer">Timer: 10</span>
 
-  <div class="quiz-container">
-    <h2 id="question">Savol shu yerda chiqadi</h2>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <h1 class="logo">Pdp<span>Quiz</span></h1>
+    <nav>
+      <a href="#home">Bosh sahifa</a>
+      <a href="#about">Haqida</a>
+      <a href="#sponsors">Homiylar</a>
+      <a href="game.html" class="play-btn">O‘yinni boshlash</a>
+    </nav>
+  </header>
 
-    <div id="answers">
+  <!-- HOME -->
+  <section id="home" class="section flex">
+    <div class="text">
+      <h2>PdpQuiz — bilimni sinovdan o‘tkazing</h2>
+      <p>
+        PdpQuiz — bu talabalar va o‘quvchilar uchun mo‘ljallangan
+        tezkor, qiziqarli va foydali test platformasi.
+      </p>
+      <a href="game.html" class="main-btn">Testni boshlash</a>
     </div>
+    <div class="image">
+      <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/6392f2e710990d784dfc8102_Quizizz%20for%20Online%20Classes_header.webp" alt="Quiz image">
+    </div>
+  </section>
 
-    <button id="nextBtn">Next</button>
+  <!-- ABOUT -->
+  <section id="about" class="section flex reverse">
+    <div class="text">
+      <h2>PdpQuiz haqida</h2>
+      <p>
+        Ushbu platforma mantiqiy fikrlashni rivojlantirish,
+        tezkor qaror qabul qilish va bilimni mustahkamlash
+        uchun yaratilgan.
+      </p>
+      <p>
+        Har bir savol vaqt bilan cheklangan bo‘lib,
+        foydalanuvchini diqqatni jamlashga undaydi.
+      </p>
+    </div>
+    <div class="image">
+      <img src="/images/download (51).png" alt="About image">
+    </div>
+  </section>
 
-    <p id="result"></p>
-  </div>
+  <!-- BODY / FOYDA -->
+  <section class="section flex">
+    <div class="text">
+      <h2>PdpQuiz foydalari</h2>
+      <ul>
+        <li>✔ Bilimni mustahkamlaydi</li>
+        <li>✔ Tez fikrlashni o‘rgatadi</li>
+        <li>✔ Qiziqarli va raqobatli</li>
+      </ul>
+    </div>
+    <div class="image">
+      <img src="/images/foyda.png" alt="Benefits image">
+    </div>
+  </section>
+
+  <!-- SPONSORS -->
+  <section id="sponsors" class="sponsors">
+    <h2>Bizning homiylar</h2>
+    <div class="sponsor-list">
+      <div class="sponsor">
+        <img id="profile" src="/images/ruxshona.jpg" alt="">
+        <p>@Ru_12345678910</p>
+        <span>Ruxshona</span>
+      </div>
+      <div class="sponsor">
+        <img id="profile" src="/images/aizxon.jpg" alt="">
+        <p>@sagdulayev_a</p>
+        <span>𝓢𝓪𝓰𝓭𝓾𝓵𝓵𝓪𝔂𝓮𝓿. A</span>
+      </div>
+      <div class="sponsor">
+        <img id="profile" src="/images/gavharoy.jpg" alt="">
+        <p>@littlePrincess_pdp</p>
+        <span>Azamatova.G</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 PdpQuiz. Barcha huquqlar himoyalangan.</p>
+  </footer>
 
 </body>
 </html>

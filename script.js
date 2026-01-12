@@ -96,10 +96,27 @@ function showResult() {
   answersEl.innerHTML = "";
   nextBtn.style.display = "none";
 
-  resultEl.innerHTML = `
-    To‘g‘ri javoblar soni: ${score / 0.5} ta <br>
+
+  if(score >= 0 && score <= 3){
+      resultEl.innerHTML = `
+      Boshlanish yomon emas 🙂
+    To'g'ri javoblar soni: ${score / 0.5} ta <br>
     Umumiy ball: ${score}
   `;
+  }else if(score >= 4 && score <= 7 ){
+          resultEl.innerHTML = `
+      Yaxshi natija 👏
+    To'g'ri javoblar soni: ${score / 0.5} ta <br>
+    Umumiy ball: ${score}
+  `;
+  }else if(score >= 8 && score <= 10 ){
+          resultEl.innerHTML = `
+      A'lo! 🔥
+    To'g'ri javoblar soni: ${score / 0.5} ta <br>
+    Umumiy ball: ${score}
+  `;
+  }
+
 }
 
 // Ruxshona bolimi Sal codeni oddiy functionga olib alohida qilindi showQuestion ichidadi sortQuestion boshqa codiga o`zgatrishish kirirtmadim.
