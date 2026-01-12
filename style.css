@@ -5,6 +5,11 @@
   font-family: Arial, sans-serif;
 }
 
+body,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #0b0d1a;
   color: #ffffff;
@@ -108,7 +113,7 @@ nav a {
   background: #12152a;
   padding: 20px;
   border-radius: 10px;
-  width: 180px;
+  width: 280px;
 }
 
 .sponsor img {
@@ -121,5 +126,5 @@ nav a {
   text-align: center;
   padding: 20px;
   background: #12152a;
-  margin-top: 40px;
+  margin-top: 20px;
 }
